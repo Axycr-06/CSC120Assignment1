@@ -12,7 +12,7 @@ def concat_elements_v1(slist, startpos, stoppos):
     if stoppos < startpos:
         return ''
 
-    for i in range(start, stop):
+    for i in range(start, stop+1):
         if i == start:
             result = slist[i]
         else:

@@ -12,6 +12,6 @@ def concat_elements_v2(slist, startpos, stoppos):
     if stoppos < startpos:
         return ''
 
-    slice = slist[start:stop]
+    slice = slist[start:stop+1]
     result = ''.join(slice)
     return result
